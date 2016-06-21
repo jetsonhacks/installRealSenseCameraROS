@@ -1,6 +1,6 @@
 # installRealSenseCameraROS
-Convenience script to install the realsense_camera package for ROS Indigo on the Jetson TK1.
-ROS and librealsense should be installed before executing these scripts.
+Convenience script to install the realsense_camera package for ROS Indigo.
+ROS and librealsense should be installed on the machine before executing these scripts.
 
 $ ./setupCatkinWorkspace <directoryname>
 
