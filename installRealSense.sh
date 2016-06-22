@@ -13,10 +13,12 @@ fi
 cd "$DEFAULTDIR"/src
 git clone https://github.com/intel-ros/realsense.git
 git checkout indigo-devel
+git clone https://github.com/ros-perception/vision_opencv.git
 cd ..
 source devel/setup.bash
+rosdep install cv_bridge -y
 # Install all the dependencies
-rosdep install realsense_camera
-# Now build the realsense package
+rosdep install realsense_camera -y
+# Now build the packages
 catkin_make
 
