@@ -20,5 +20,5 @@ rosdep install cv_bridge -y
 # Install all the dependencies
 rosdep install realsense_camera -y
 # Now build the packages
-catkin_make
+catkin_make -j1
 
