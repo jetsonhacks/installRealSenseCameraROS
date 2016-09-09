@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # Create a Catkin Workspace and setup ROS environment variables
 # Usage setupCatkinWorkspace.sh dirName
 DEFAULTDIR=~/catkin_ws
