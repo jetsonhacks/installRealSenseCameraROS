@@ -1,5 +1,5 @@
 # installRealSenseCameraROS
-Convenience script to install the realsense_camera package for ROS Indigo.
+Convenience script to install the realsense_camera package for ROS Indigo on the NVIDIA Jetson TK1.
 ROS and librealsense should be installed on the machine before executing these scripts.
 
 $ ./setupCatkinWorkspace <directoryname>
